@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+    color: #495e57;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    color: #f4ce14;
+  }
+  
+  .selected {
+    color: #f4ce14;
+  }

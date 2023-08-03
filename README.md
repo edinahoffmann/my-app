@@ -1,1 +1,1 @@
-# capstone project app
+# my-app

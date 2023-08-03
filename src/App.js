@@ -1,3 +1,4 @@
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
@@ -22,3 +23,5 @@ export default function App() {
     </>
   );
 }
+
+export const AppTest = () => <h1>Hello world React!</h1>;

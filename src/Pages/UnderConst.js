@@ -10,7 +10,7 @@ export default function UnderConstruction() {
         height: "50vh",
       }}
     >
-      <h2>Page under construction</h2>
+      <h2>We are sorry but the page is under construction.</h2>
     </div>
   );
 }

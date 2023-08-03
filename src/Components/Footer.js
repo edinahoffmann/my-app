@@ -47,8 +47,10 @@ export default function Footer() {
       <div>
       <h3>Contact Us</h3>
       {contacts.map((contact, index) => 
-            <p key={index}>
+            <p>
+            <a key={index}>
               <FontAwesomeIcon icon={contact.icon} /> {contact.info}
+            </a>
             </p>
           )}
       </div>

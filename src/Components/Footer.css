@@ -9,4 +9,10 @@
 
 footer a {
   color: #FFFFFF;
+  margin-right: 0.5rem;
+}
+
+footer a:hover, footer svg:hover {
+  color: #F4CE14;
+  cursor: pointer;
 }

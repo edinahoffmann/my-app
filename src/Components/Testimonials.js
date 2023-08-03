@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ReactStars from "react-rating-stars-component";
 import TestmonialItem from "./Testimonial";
 import "./Testimonials.css";
 
@@ -20,6 +21,9 @@ export default function Testimonials() {
     fetchClients();
   }, []);
 
+  
+
+
   return (
     <div className="green-container testimonials-container">
       <h1>What people say about us!</h1>
@@ -28,7 +32,12 @@ export default function Testimonials() {
           clients.map((client) => (
             <TestmonialItem
               key={client.login.uuid}
-              rating={5}
+              rating={
+                <ReactStars
+                  count={5}
+                  size={24}
+                  activeColor="#F4CE14"
+                />}
               name={client.name.first + " " + client.name.last}
               image={client.picture.medium}
               review={defaultReview}

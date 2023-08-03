@@ -6,7 +6,7 @@ const ConfirmedBooking = () => {
     <div className="confirmed-booking">
       <FontAwesomeIcon icon={faCircleCheck} size="3x" />
       <h2>Your reservation has been confirmed!</h2>
-      <p>You will receive an email with all the details.</p>
+      <p>You will receive an email with the details.</p>
     </div>
   );
 };
